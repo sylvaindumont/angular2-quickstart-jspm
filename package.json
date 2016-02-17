@@ -1,0 +1,25 @@
+{
+  "name": "angular2-quickstart-jspm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.ts",
+  "dependencies": {},
+  "devDependencies": {
+    "jspm": "^0.16.29"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node_modules/.bin/jspm install"
+  },
+  "author": "sylvaindumont",
+  "license": "MIT",
+  "jspm": {
+    "dependencies": {
+      "angular2": "npm:angular2@^2.0.0-beta.6",
+      "reflect-metadata": "npm:reflect-metadata@^0.1.3"
+    },
+    "devDependencies": {
+      "typescript": "npm:typescript@^1.8.0"
+    }
+  }
+}
